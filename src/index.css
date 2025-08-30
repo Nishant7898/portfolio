@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Iceland&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Iceland&family=Lexend+Exa:wght@100..900&family=Lexend+Giga:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Iceland&family=Lexend+Exa:wght@100..900&family=Lexend+Giga:wght@100..900&family=PT+Serif+Caption:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Geo:ital@0;1&family=Iceland&family=Lexend+Exa:wght@100..900&family=Lexend+Giga:wght@100..900&family=PT+Serif+Caption:ital@0;1&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  --animate-fade-in: fade-in 1s ease-in-out forwards;
+  --animate-fade-out: fade-out 1s ease-in-out forwards;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+
+  --font-iceland: "iceland", "sans-serif";
+  --font-black-ops-one-regular: "Black Ops One", system-ui;
+  --font-lexend-exa: "Lexend Exa", sans-serif;
+  --font-pt-serif-caption-regular: "PT Serif Caption", serif;
+  --font-geo-regular-italic: "Geo", sans-serif;
+}
