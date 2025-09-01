@@ -72,7 +72,7 @@ const projects = [
     description: "A responsive e-commerce app built with React & Tailwind.",
     tech: ["React", "Tailwind", "Redux", "Stripe"],
     img: [A, B, C, D, E, F],
-    link: "gurjar-collection-store.netlify.app",
+    link: "cloth-canvas.netlify.app",
   },
 ];
 
