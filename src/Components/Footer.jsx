@@ -89,7 +89,7 @@ const Footer = () => {
         </a>
         <button
           onClick={scrollToTop}
-          className="hover:text-yellow-400 transition-colors duration-300"
+          className="hover:text-yellow-400 cursor-pointer transition-colors duration-300"
         >
           <ArrowUp className="w-6 h-6" />
         </button>

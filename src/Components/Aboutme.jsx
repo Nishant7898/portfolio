@@ -106,7 +106,7 @@ const AboutMe = () => {
         >
           <button onClick={scrolltocontact}
             className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 
-                           text-white px-6 font-lexend-exa sm:px-8 py-2 sm:py-3 rounded-full 
+                           text-white px-6 cursor-pointer font-lexend-exa sm:px-8 py-2 sm:py-3 rounded-full 
                            text-sm sm:text-base font-medium transition-all duration-300 
                            hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25"
           >

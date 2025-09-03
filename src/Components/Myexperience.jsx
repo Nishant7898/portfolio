@@ -73,7 +73,7 @@ const MyExperience = () => {
             {/* Projects (if any) */}
             {exp.projects && (
               <a
-                href="https://gurjar-collection-store.netlify.app/"
+                href="cloth-canvas.netlify.app"
                 className="mt-2 space-y-2"
               >
                 {exp.projects.map((proj, j) => (

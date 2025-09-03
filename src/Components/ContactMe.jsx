@@ -116,7 +116,7 @@ const ContactMe = () => {
           ></textarea>
           <button
             type="submit"
-            className="w-full font-lexend-exa bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 py-3 rounded-lg font-semibold text-lg hover:opacity-90"
+            className="w-full cursor-pointer font-lexend-exa bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 py-3 rounded-lg font-semibold text-lg hover:opacity-90"
           >
             Send Message
           </button>
